@@ -46,7 +46,7 @@ const corsOptions = {
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   preflightContinue: false,
   credentials: true,
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: ['https://moodpoint-admin-panel-production.up.railway.app/'],
 }
 
 app.use(Cors(corsOptions))
