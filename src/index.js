@@ -24,7 +24,7 @@ const inProd = nodeEnv === 'production'
 
 const dbString = inProd
   ? `mongodb+srv://${dbUser}:${dbPassword}@cluster0.njezis2.mongodb.net/${dbName}?retryWrites=true&w=majority`
-  : `mongodb+srv://${dbUser}:${dbPassword}@cluster0.dclwf.mongodb.net/${dbName}?retryWrites=true&w=majority`
+  : `mongodb+srv://${dbUser}:${dbPassword}@cluster0.njezis2.mongodb.net/${dbName}?retryWrites=true&w=majority`
 
 const maxAge = new Date('2024-01-01T00:00:00+0000').getTime()
 
